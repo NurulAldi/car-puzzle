@@ -3,21 +3,19 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { useGameStore, useStatsStore } from '@/stores/gameStore';
+import { useGameStore } from '@/stores/gameStore';
 import { downloadScreenshot, shareScore } from '@/utils/screenshot';
 import { Trophy, Download, Share2, RotateCcw, Home } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 export function ScorePage() {
   const { score, hintsUsed, questionsSkipped, calculateScore, resetGame } = useGameStore();
-  const { updateStats, stats } = useStatsStore();
   const [scoreData, setScoreData] = useState(calculateScore());
   const [isDownloading, setIsDownloading] = useState(false);
 
   useEffect(() => {
     const data = calculateScore();
     setScoreData(data);
-    updateStats(data);
   }, []);
 
   const handleDownloadScreenshot = async () => {
@@ -116,32 +114,6 @@ export function ScorePage() {
         </CardContent>
       </Card>
 
-      {/* Stats Card */}
-      <Card>
-        <CardHeader>
-          <CardTitle className="text-center">Your Statistics</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <div className="grid grid-cols-2 gap-4 text-center">
-            <div>
-              <div className="text-xl font-bold text-primary">{stats.gamesPlayed}</div>
-              <div className="text-sm text-muted-foreground">Games Played</div>
-            </div>
-            <div>
-              <div className="text-xl font-bold text-primary">{stats.bestScore}</div>
-              <div className="text-sm text-muted-foreground">Best Score</div>
-            </div>
-            <div>
-              <div className="text-xl font-bold text-primary">{Math.round(stats.averageScore * 10) / 10}</div>
-              <div className="text-sm text-muted-foreground">Average Score</div>
-            </div>
-            <div>
-              <div className="text-xl font-bold text-primary">{stats.totalHintsUsed}</div>
-              <div className="text-sm text-muted-foreground">Total Hints</div>
-            </div>
-          </div>
-        </CardContent>
-      </Card>
 
       {/* Action Buttons */}
       <div className="flex flex-wrap gap-3 justify-center">
