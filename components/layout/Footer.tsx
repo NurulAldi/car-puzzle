@@ -27,8 +27,6 @@ export function Footer() {
             <h3 className="font-semibold">Quick Links</h3>
             <div className="space-y-2 text-sm">
               <div><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Home</a></div>
-              <div><a href="#" className="text-muted-foreground hover:text-primary transition-colors">How to Play</a></div>
-              <div><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Leaderboard</a></div>
               <div><a href="#" className="text-muted-foreground hover:text-primary transition-colors">About Us</a></div>
             </div>
           </div>
@@ -38,9 +36,6 @@ export function Footer() {
             <h3 className="font-semibold">Games</h3>
             <div className="space-y-2 text-sm">
               <div><span className="text-primary font-medium">Car Trivia Puzzle</span></div>
-              <div><span className="text-muted-foreground">Motorcycle Quiz (Coming Soon)</span></div>
-              <div><span className="text-muted-foreground">Racing History (Coming Soon)</span></div>
-              <div><span className="text-muted-foreground">Auto Parts Challenge (Coming Soon)</span></div>
             </div>
           </div>
 
@@ -69,11 +64,6 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="text-sm text-muted-foreground">
             © {currentYear} Car Trivia Puzzle Game. All rights reserved.
-          </div>
-          <div className="flex space-x-6 text-sm">
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">Privacy Policy</a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">Terms of Service</a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">Support</a>
           </div>
         </div>
       </div>
