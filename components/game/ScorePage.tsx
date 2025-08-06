@@ -4,32 +4,18 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { useGameStore } from '@/stores/gameStore';
-import { downloadScreenshot, shareScore } from '@/utils/screenshot';
-import { Trophy, Download, Share2, RotateCcw, Home } from 'lucide-react';
+import { Trophy, RotateCcw, Home } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 export function ScorePage() {
   const { score, hintsUsed, questionsSkipped, calculateScore, resetGame } = useGameStore();
   const [scoreData, setScoreData] = useState(calculateScore());
-  const [isDownloading, setIsDownloading] = useState(false);
 
   useEffect(() => {
     const data = calculateScore();
     setScoreData(data);
   }, []);
 
-  const handleDownloadScreenshot = async () => {
-    setIsDownloading(true);
-    const success = await downloadScreenshot('score-display', 'car-trivia-score');
-    if (!success) {
-      alert('Failed to download screenshot. Please try again.');
-    }
-    setIsDownloading(false);
-  };
-
-  const handleShare = () => {
-    shareScore(scoreData);
-  };
 
   const handlePlayAgain = () => {
     useGameStore.getState().startNewGame();
@@ -122,15 +108,6 @@ export function ScorePage() {
           Play Again
         </Button>
         
-        <Button onClick={handleDownloadScreenshot} variant="outline" disabled={isDownloading} className="flex items-center gap-2">
-          <Download className="h-4 w-4" />
-          {isDownloading ? 'Downloading...' : 'Download Score'}
-        </Button>
-        
-        <Button onClick={handleShare} variant="outline" className="flex items-center gap-2">
-          <Share2 className="h-4 w-4" />
-          Share Score
-        </Button>
         
         <Button onClick={handleGoHome} variant="ghost" className="flex items-center gap-2">
           <Home className="h-4 w-4" />
