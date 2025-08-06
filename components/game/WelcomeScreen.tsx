@@ -2,12 +2,11 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { useGameStore, useStatsStore } from '@/stores/gameStore';
+import { useGameStore } from '@/stores/gameStore';
 import { Play, Trophy, Target, Clock } from 'lucide-react';
 
 export function WelcomeScreen() {
   const startNewGame = useGameStore((state) => state.startNewGame);
-  const { stats } = useStatsStore();
 
   const handleStartGame = () => {
     startNewGame();
@@ -55,37 +54,6 @@ export function WelcomeScreen() {
         </CardContent>
       </Card>
 
-      {/* Stats Card */}
-      {stats.gamesPlayed > 0 && (
-        <Card>
-          <CardHeader>
-            <CardTitle className="text-center flex items-center justify-center gap-2">
-              <Trophy className="h-5 w-5" />
-              Your Statistics
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
-              <div>
-                <div className="text-2xl font-bold text-primary">{stats.gamesPlayed}</div>
-                <div className="text-sm text-muted-foreground">Games Played</div>
-              </div>
-              <div>
-                <div className="text-2xl font-bold text-primary">{stats.bestScore}/10</div>
-                <div className="text-sm text-muted-foreground">Best Score</div>
-              </div>
-              <div>
-                <div className="text-2xl font-bold text-primary">{Math.round(stats.averageScore * 10) / 10}/10</div>
-                <div className="text-sm text-muted-foreground">Average Score</div>
-              </div>
-              <div>
-                <div className="text-2xl font-bold text-primary">{Math.round((stats.averageScore / 10) * 100)}%</div>
-                <div className="text-sm text-muted-foreground">Success Rate</div>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
-      )}
 
       {/* Instructions */}
       <Card>
