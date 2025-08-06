@@ -1,0 +1,842 @@
+[
+  {
+    "id": 1,
+    "question": "This Japanese car is known for its rotary engine and was featured in the Fast & Furious franchise.",
+    "answer": "MAZDA RX7",
+    "hint": "It's a lightweight Japanese sports car with a unique rotary engine, often modified by enthusiasts.",
+    "difficulty": "medium",
+    "category": "sports cars"
+  },
+  {
+    "id": 2,
+    "question": "This Italian supercar manufacturer's logo features a prancing horse.",
+    "answer": "FERRARI",
+    "hint": "Founded by Enzo, this brand is synonymous with Formula 1 racing and red sports cars.",
+    "difficulty": "easy",
+    "category": "luxury"
+  },
+  {
+    "id": 3,
+    "question": "This German luxury car brand's slogan is 'The Ultimate Driving Machine'.",
+    "answer": "BMW",
+    "hint": "Known for their kidney grille design and performance-oriented vehicles.",
+    "difficulty": "easy",
+    "category": "luxury"
+  },
+  {
+    "id": 4,
+    "question": "This American muscle car was first introduced in 1964 and became an icon of the pony car segment.",
+    "answer": "MUSTANG",
+    "hint": "Named after a wild horse, it's Ford's most famous sports car.",
+    "difficulty": "medium",
+    "category": "muscle cars"
+  },
+  {
+    "id": 5,
+    "question": "This Japanese brand is known for its reliability and the Corolla model.",
+    "answer": "TOYOTA",
+    "hint": "The world's largest automaker by production volume.",
+    "difficulty": "easy",
+    "category": "mainstream"
+  },
+  {
+    "id": 6,
+    "question": "This British luxury car manufacturer is owned by Rolls-Royce Motor Cars.",
+    "answer": "ROLLS ROYCE",
+    "hint": "Known for the Spirit of Ecstasy hood ornament and ultimate luxury.",
+    "difficulty": "medium",
+    "category": "luxury"
+  },
+  {
+    "id": 7,
+    "question": "This electric car company was founded by Elon Musk.",
+    "answer": "TESLA",
+    "hint": "Named after inventor Nikola, this company revolutionized electric vehicles.",
+    "difficulty": "easy",
+    "category": "electric"
+  },
+  {
+    "id": 8,
+    "question": "This Italian brand's logo features a bull, representing the founder's zodiac sign.",
+    "answer": "LAMBORGHINI",
+    "hint": "Founded by a tractor manufacturer who was dissatisfied with Ferrari.",
+    "difficulty": "medium",
+    "category": "supercars"
+  },
+  {
+    "id": 9,
+    "question": "This German car is often called 'The People's Car' and was originally designed in the 1930s.",
+    "answer": "VOLKSWAGEN BEETLE",
+    "hint": "Small, rounded car that became a symbol of the 1960s counterculture.",
+    "difficulty": "medium",
+    "category": "classic"
+  },
+  {
+    "id": 10,
+    "question": "This American brand produces the Corvette sports car.",
+    "answer": "CHEVROLET",
+    "hint": "Part of General Motors, known for the bowtie logo.",
+    "difficulty": "medium",
+    "category": "american"
+  },
+  {
+    "id": 11,
+    "question": "This Swedish car manufacturer is known for its safety innovations.",
+    "answer": "VOLVO",
+    "hint": "Invented the three-point seatbelt and gave it away for free to save lives.",
+    "difficulty": "medium",
+    "category": "safety"
+  },
+  {
+    "id": 12,
+    "question": "This Japanese brand's name means 'to exceed' in Latin.",
+    "answer": "NISSAN",
+    "hint": "Produces the GT-R supercar and the Z sports car series.",
+    "difficulty": "hard",
+    "category": "japanese"
+  },
+  {
+    "id": 13,
+    "question": "This German manufacturer produces the 911 sports car.",
+    "answer": "PORSCHE",
+    "hint": "Founded by Ferdinand, known for rear-engine sports cars.",
+    "difficulty": "easy",
+    "category": "sports cars"
+  },
+  {
+    "id": 14,
+    "question": "This British brand produces the Defender and Range Rover.",
+    "answer": "LAND ROVER",
+    "hint": "Specializes in luxury SUVs and off-road vehicles.",
+    "difficulty": "medium",
+    "category": "suv"
+  },
+  {
+    "id": 15,
+    "question": "This American car company was founded by Henry in 1903.",
+    "answer": "FORD",
+    "hint": "Pioneered the assembly line method of mass production.",
+    "difficulty": "easy",
+    "category": "american"
+  },
+  {
+    "id": 16,
+    "question": "This Korean brand's name means 'modernity' in Korean.",
+    "answer": "HYUNDAI",
+    "hint": "Known for long warranties and value-oriented vehicles.",
+    "difficulty": "medium",
+    "category": "korean"
+  },
+  {
+    "id": 17,
+    "question": "This Italian brand produces the 500 small car.",
+    "answer": "FIAT",
+    "hint": "Acronym stands for 'Italian Automobile Factory of Turin'.",
+    "difficulty": "medium",
+    "category": "italian"
+  },
+  {
+    "id": 18,
+    "question": "This Japanese brand is part of the Renault-Nissan Alliance.",
+    "answer": "MITSUBISHI",
+    "hint": "Known for the Lancer Evolution rally car.",
+    "difficulty": "hard",
+    "category": "japanese"
+  },
+  {
+    "id": 19,
+    "question": "This British sports car manufacturer produces the DB11 and Vantage.",
+    "answer": "ASTON MARTIN",
+    "hint": "James Bond's car of choice in many films.",
+    "difficulty": "medium",
+    "category": "luxury"
+  },
+  {
+    "id": 20,
+    "question": "This American luxury division of General Motors uses a crest logo.",
+    "answer": "CADILLAC",
+    "hint": "Known for large luxury sedans and SUVs.",
+    "difficulty": "medium",
+    "category": "luxury"
+  },
+  {
+    "id": 21,
+    "question": "This supercar manufacturer was founded in 1963 and produces the Huracán.",
+    "answer": "LAMBORGHINI",
+    "hint": "Italian brand known for scissor doors and dramatic styling.",
+    "difficulty": "medium",
+    "category": "supercars"
+  },
+  {
+    "id": 22,
+    "question": "This French manufacturer produces the 208 and 3008 models.",
+    "answer": "PEUGEOT",
+    "hint": "Uses a lion logo and is one of the oldest car manufacturers.",
+    "difficulty": "hard",
+    "category": "french"
+  },
+  {
+    "id": 23,
+    "question": "This Japanese brand's luxury division is called Acura in North America.",
+    "answer": "HONDA",
+    "hint": "Known for motorcycles, the Civic, and VTEC engines.",
+    "difficulty": "medium",
+    "category": "japanese"
+  },
+  {
+    "id": 24,
+    "question": "This German brand's motto is 'Vorsprung durch Technik' (Advancement through Technology).",
+    "answer": "AUDI",
+    "hint": "Known for quattro all-wheel drive and four interlocking rings logo.",
+    "difficulty": "medium",
+    "category": "german"
+  },
+  {
+    "id": 25,
+    "question": "This Czech manufacturer is now owned by Volkswagen Group.",
+    "answer": "SKODA",
+    "hint": "Known for practical, value-oriented vehicles with clever features.",
+    "difficulty": "hard",
+    "category": "czech"
+  },
+  {
+    "id": 26,
+    "question": "This Mexican racing driver became Formula 1 World Champion in 2020 and 2021.",
+    "answer": "MAX VERSTAPPEN",
+    "hint": "Drives for Red Bull Racing and is known for aggressive overtaking.",
+    "difficulty": "medium",
+    "category": "racing"
+  },
+  {
+    "id": 27,
+    "question": "This American car is known as 'America's Sports Car'.",
+    "answer": "CORVETTE",
+    "hint": "Chevrolet's flagship sports car with a distinctive design.",
+    "difficulty": "easy",
+    "category": "sports cars"
+  },
+  {
+    "id": 28,
+    "question": "This racing circuit in Monaco is known for its tight corners and glamour.",
+    "answer": "MONTE CARLO",
+    "hint": "Famous street circuit that runs through the principality.",
+    "difficulty": "medium",
+    "category": "racing"
+  },
+  {
+    "id": 29,
+    "question": "This Japanese tuning company is famous for modifying Nissan GT-Rs.",
+    "answer": "MINE'S",
+    "hint": "Well-known in the JDM tuning scene for high-performance modifications.",
+    "difficulty": "hard",
+    "category": "tuning"
+  },
+  {
+    "id": 30,
+    "question": "This Italian design house has styled cars for Ferrari, Maserati, and others.",
+    "answer": "PININFARINA",
+    "hint": "Legendary design house known for elegant and aerodynamic shapes.",
+    "difficulty": "hard",
+    "category": "design"
+  },
+  {
+    "id": 31,
+    "question": "This American muscle car was discontinued in 1974 but returned in 2008.",
+    "answer": "CHALLENGER",
+    "hint": "Dodge's answer to the Mustang and Camaro.",
+    "difficulty": "medium",
+    "category": "muscle cars"
+  },
+  {
+    "id": 32,
+    "question": "This engine configuration has cylinders arranged in a V-shape with 8 cylinders.",
+    "answer": "V8",
+    "hint": "Popular in American muscle cars and luxury vehicles.",
+    "difficulty": "easy",
+    "category": "engines"
+  },
+  {
+    "id": 33,
+    "question": "This racing series features open-wheel cars and races at Indianapolis Motor Speedway.",
+    "answer": "INDYCAR",
+    "hint": "American open-wheel racing series with the famous Indy 500.",
+    "difficulty": "medium",
+    "category": "racing"
+  },
+  {
+    "id": 34,
+    "question": "This transmission type allows drivers to manually select gears without a clutch pedal.",
+    "answer": "AUTOMATIC",
+    "hint": "Uses a torque converter instead of a clutch.",
+    "difficulty": "easy",
+    "category": "technical"
+  },
+  {
+    "id": 35,
+    "question": "This British manufacturer produces the Continental GT and Bentayga.",
+    "answer": "BENTLEY",
+    "hint": "Luxury brand known for handcrafted interiors and powerful engines.",
+    "difficulty": "medium",
+    "category": "luxury"
+  },
+  {
+    "id": 36,
+    "question": "This racing technique involves sliding the rear wheels through corners.",
+    "answer": "DRIFTING",
+    "hint": "Popular in Japan and featured in movies like Fast & Furious: Tokyo Drift.",
+    "difficulty": "easy",
+    "category": "racing"
+  },
+  {
+    "id": 37,
+    "question": "This American brand produces the Grand Cherokee and Wrangler.",
+    "answer": "JEEP",
+    "hint": "Known for off-road capability and rugged design.",
+    "difficulty": "easy",
+    "category": "american"
+  },
+  {
+    "id": 38,
+    "question": "This system helps prevent wheel lockup during hard braking.",
+    "answer": "ABS",
+    "hint": "Anti-lock Braking System, now standard on most vehicles.",
+    "difficulty": "medium",
+    "category": "safety"
+  },
+  {
+    "id": 39,
+    "question": "This Japanese brand is known for the WRX and BRZ sports cars.",
+    "answer": "SUBARU",
+    "hint": "All models come standard with all-wheel drive (except BRZ).",
+    "difficulty": "medium",
+    "category": "japanese"
+  },
+  {
+    "id": 40,
+    "question": "This racing driver is known as 'The Stig' on a popular British TV show.",
+    "answer": "TOP GEAR",
+    "hint": "BBC motoring show featuring car reviews and challenges.",
+    "difficulty": "medium",
+    "category": "media"
+  },
+  {
+    "id": 41,
+    "question": "This aerodynamic device creates downforce to improve high-speed handling.",
+    "answer": "SPOILER",
+    "hint": "Often found on the rear of sports cars and race cars.",
+    "difficulty": "easy",
+    "category": "aerodynamics"
+  },
+  {
+    "id": 42,
+    "question": "This measurement indicates the volume swept by all pistons in an engine.",
+    "answer": "DISPLACEMENT",
+    "hint": "Usually measured in liters or cubic inches.",
+    "difficulty": "medium",
+    "category": "engines"
+  },
+  {
+    "id": 43,
+    "question": "This Italian manufacturer produces supercars like the Huayra and Zonda.",
+    "answer": "PAGANI",
+    "hint": "Founded by Horacio, known for artistic and exclusive hypercars.",
+    "difficulty": "hard",
+    "category": "supercars"
+  },
+  {
+    "id": 44,
+    "question": "This American racing series features stock cars racing on oval tracks.",
+    "answer": "NASCAR",
+    "hint": "National Association for Stock Car Auto Racing.",
+    "difficulty": "easy",
+    "category": "racing"
+  },
+  {
+    "id": 45,
+    "question": "This device forces more air into the engine to increase power.",
+    "answer": "TURBOCHARGER",
+    "hint": "Uses exhaust gases to spin a turbine that compresses intake air.",
+    "difficulty": "medium",
+    "category": "engines"
+  },
+  {
+    "id": 46,
+    "question": "This Swedish brand is owned by Chinese company Geely.",
+    "answer": "VOLVO",
+    "hint": "Known for pioneering safety features like three-point seatbelts.",
+    "difficulty": "medium",
+    "category": "swedish"
+  },
+  {
+    "id": 47,
+    "question": "This racing driver won 7 Formula 1 World Championships.",
+    "answer": "MICHAEL SCHUMACHER",
+    "hint": "German driver who dominated F1 in the 1990s and 2000s.",
+    "difficulty": "medium",
+    "category": "racing"
+  },
+  {
+    "id": 48,
+    "question": "This Japanese performance car is nicknamed 'Godzilla'.",
+    "answer": "NISSAN GTR",
+    "hint": "All-wheel drive supercar killer from Japan.",
+    "difficulty": "medium",
+    "category": "sports cars"
+  },
+  {
+    "id": 49,
+    "question": "This tire compound is designed for maximum grip on race tracks.",
+    "answer": "SLICK",
+    "hint": "Has no tread pattern for maximum contact with dry pavement.",
+    "difficulty": "medium",
+    "category": "racing"
+  },
+  {
+    "id": 50,
+    "question": "This Indian manufacturer is owned by Tata Motors.",
+    "answer": "JAGUAR LAND ROVER",
+    "hint": "British luxury brand known for sports cars and SUVs.",
+    "difficulty": "hard",
+    "category": "luxury"
+  },
+  {
+    "id": 51,
+    "question": "This racing event is known as 'The Greatest Spectacle in Racing'.",
+    "answer": "INDIANAPOLIS 500",
+    "hint": "Held annually at the Indianapolis Motor Speedway.",
+    "difficulty": "medium",
+    "category": "racing"
+  },
+  {
+    "id": 52,
+    "question": "This French manufacturer produces the Chiron hypercar.",
+    "answer": "BUGATTI",
+    "hint": "Known for extreme speed and luxury, currently owned by Volkswagen.",
+    "difficulty": "medium",
+    "category": "hypercars"
+  },
+  {
+    "id": 53,
+    "question": "This system automatically adjusts suspension settings for optimal handling.",
+    "answer": "ADAPTIVE SUSPENSION",
+    "hint": "Uses sensors to adjust damping in real-time.",
+    "difficulty": "hard",
+    "category": "technology"
+  },
+  {
+    "id": 54,
+    "question": "This Brazilian racing driver won 3 Formula 1 World Championships.",
+    "answer": "AYRTON SENNA",
+    "hint": "Considered one of the greatest F1 drivers, known for wet weather skills.",
+    "difficulty": "medium",
+    "category": "racing"
+  },
+  {
+    "id": 55,
+    "question": "This American electric car startup went public via SPAC in 2020.",
+    "answer": "LUCID MOTORS",
+    "hint": "Produces the Air luxury electric sedan with impressive range.",
+    "difficulty": "hard",
+    "category": "electric"
+  },
+  {
+    "id": 56,
+    "question": "This racing technique involves using the throttle to control the car's rotation.",
+    "answer": "TRAIL BRAKING",
+    "hint": "Gradually releasing brakes while turning in to maintain balance.",
+    "difficulty": "hard",
+    "category": "racing"
+  },
+  {
+    "id": 57,
+    "question": "This Australian manufacturer ceased production in 2017.",
+    "answer": "HOLDEN",
+    "hint": "General Motors' Australian subsidiary known for muscle cars.",
+    "difficulty": "hard",
+    "category": "australian"
+  },
+  {
+    "id": 58,
+    "question": "This rally racing series features cars racing on various terrain types.",
+    "answer": "WRC",
+    "hint": "World Rally Championship, the premier rallying series.",
+    "difficulty": "medium",
+    "category": "racing"
+  },
+  {
+    "id": 59,
+    "question": "This drivetrain configuration sends power to the rear wheels only.",
+    "answer": "RWD",
+    "hint": "Rear-wheel drive, preferred for sports cars and luxury vehicles.",
+    "difficulty": "easy",
+    "category": "technical"
+  },
+  {
+    "id": 60,
+    "question": "This Malaysian manufacturer produces the Proton brand.",
+    "answer": "PROTON",
+    "hint": "National car manufacturer of Malaysia.",
+    "difficulty": "hard",
+    "category": "malaysian"
+  },
+  {
+    "id": 61,
+    "question": "This racing circuit in Belgium is known for the famous Eau Rouge corner.",
+    "answer": "SPA FRANCORCHAMPS",
+    "hint": "One of the most challenging circuits in Formula 1.",
+    "difficulty": "hard",
+    "category": "racing"
+  },
+  {
+    "id": 62,
+    "question": "This Chinese electric car manufacturer is backed by NIO Capital.",
+    "answer": "NIO",
+    "hint": "Known for battery swapping technology and autonomous driving.",
+    "difficulty": "hard",
+    "category": "electric"
+  },
+  {
+    "id": 63,
+    "question": "This racing driver is known for his colorful personality and multiple championships.",
+    "answer": "LEWIS HAMILTON",
+    "hint": "British driver who has won 7 Formula 1 World Championships.",
+    "difficulty": "medium",
+    "category": "racing"
+  },
+  {
+    "id": 64,
+    "question": "This American manufacturer produces the Model S and Model Y.",
+    "answer": "TESLA",
+    "hint": "Founded by Elon Musk, revolutionizing electric vehicles.",
+    "difficulty": "easy",
+    "category": "electric"
+  },
+  {
+    "id": 65,
+    "question": "This system uses cameras and sensors to park the car automatically.",
+    "answer": "PARKING ASSIST",
+    "hint": "Autonomous parking technology found in modern luxury cars.",
+    "difficulty": "medium",
+    "category": "technology"
+  },
+  {
+    "id": 66,
+    "question": "This Italian manufacturer produces the MC20 supercar.",
+    "answer": "MASERATI",
+    "hint": "Luxury brand with a trident logo, owned by Stellantis.",
+    "difficulty": "medium",
+    "category": "luxury"
+  },
+  {
+    "id": 67,
+    "question": "This racing series features purpose-built sports cars racing at circuits like Le Mans.",
+    "answer": "WEC",
+    "hint": "World Endurance Championship, including the 24 Hours of Le Mans.",
+    "difficulty": "hard",
+    "category": "racing"
+  },
+  {
+    "id": 68,
+    "question": "This suspension component connects the wheel hub to the vehicle's frame.",
+    "answer": "CONTROL ARM",
+    "hint": "Also known as an A-arm, crucial for wheel alignment and handling.",
+    "difficulty": "hard",
+    "category": "technical"
+  },
+  {
+    "id": 69,
+    "question": "This Romanian manufacturer produces the Dacia brand.",
+    "answer": "RENAULT",
+    "hint": "French manufacturer that owns the budget-friendly Dacia brand.",
+    "difficulty": "hard",
+    "category": "romanian"
+  },
+  {
+    "id": 70,
+    "question": "This racing driver is known as 'The Flying Finn'.",
+    "answer": "KIMI RAIKKONEN",
+    "hint": "Finnish Formula 1 driver known for his stoic personality.",
+    "difficulty": "medium",
+    "category": "racing"
+  },
+  {
+    "id": 71,
+    "question": "This British manufacturer produces the DB series and Vantage models.",
+    "answer": "ASTON MARTIN",
+    "hint": "Luxury British brand featured in James Bond films.",
+    "difficulty": "medium",
+    "category": "luxury"
+  },
+  {
+    "id": 72,
+    "question": "This racing technique involves using the car's weight transfer to aid cornering.",
+    "answer": "SCANDINAVIAN FLICK",
+    "hint": "Rally technique where the car is flicked one way then the other.",
+    "difficulty": "hard",
+    "category": "racing"
+  },
+  {
+    "id": 73,
+    "question": "This American manufacturer produces the Silverado and Tahoe.",
+    "answer": "CHEVROLET",
+    "hint": "GM's mainstream brand with the bowtie logo.",
+    "difficulty": "easy",
+    "category": "american"
+  },
+  {
+    "id": 74,
+    "question": "This racing driver won the 24 Hours of Le Mans 9 times.",
+    "answer": "TOM KRISTENSEN",
+    "hint": "Danish driver known as 'Mr. Le Mans' for his endurance racing success.",
+    "difficulty": "hard",
+    "category": "racing"
+  },
+  {
+    "id": 75,
+    "question": "This system automatically maintains a set distance from the car ahead.",
+    "answer": "ADAPTIVE CRUISE CONTROL",
+    "hint": "Uses radar or cameras to adjust speed automatically.",
+    "difficulty": "medium",
+    "category": "safety"
+  },
+  {
+    "id": 76,
+    "question": "This Spanish manufacturer produces the SEAT and Cupra brands.",
+    "answer": "SEAT",
+    "hint": "Spanish brand owned by Volkswagen Group.",
+    "difficulty": "hard",
+    "category": "spanish"
+  },
+  {
+    "id": 77,
+    "question": "This racing circuit in Japan is known for its figure-eight layout.",
+    "answer": "SUZUKA",
+    "hint": "Famous Formula 1 circuit with the distinctive crossover bridge.",
+    "difficulty": "medium",
+    "category": "racing"
+  },
+  {
+    "id": 78,
+    "question": "This drivetrain system can vary power distribution between front and rear axles.",
+    "answer": "AWD",
+    "hint": "All-wheel drive, providing traction to all four wheels.",
+    "difficulty": "easy",
+    "category": "technical"
+  },
+  {
+    "id": 79,
+    "question": "This British manufacturer produces the Defender and Discovery models.",
+    "answer": "LAND ROVER",
+    "hint": "Specializes in luxury off-road vehicles and SUVs.",
+    "difficulty": "medium",
+    "category": "british"
+  },
+  {
+    "id": 80,
+    "question": "This racing series features highly modified production cars on road courses.",
+    "answer": "BTCC",
+    "hint": "British Touring Car Championship, known for close racing.",
+    "difficulty": "hard",
+    "category": "racing"
+  },
+  {
+    "id": 81,
+    "question": "This engine configuration has cylinders arranged in two banks forming a V-shape with 6 cylinders.",
+    "answer": "V6",
+    "hint": "Common in mid-size cars and SUVs for balanced power and efficiency.",
+    "difficulty": "easy",
+    "category": "engines"
+  },
+  {
+    "id": 82,
+    "question": "This American manufacturer produces the F-150 pickup truck.",
+    "answer": "FORD",
+    "hint": "America's best-selling truck for decades.",
+    "difficulty": "easy",
+    "category": "american"
+  },
+  {
+    "id": 83,
+    "question": "This racing driver is known for his aggressive wheel-to-wheel racing style.",
+    "answer": "MAX VERSTAPPEN",
+    "hint": "Dutch driver who won multiple Formula 1 championships with Red Bull.",
+    "difficulty": "medium",
+    "category": "racing"
+  },
+  {
+    "id": 84,
+    "question": "This system prevents the vehicle from rolling backward on hills.",
+    "answer": "HILL ASSIST",
+    "hint": "Temporarily holds the brakes when starting on an incline.",
+    "difficulty": "medium",
+    "category": "safety"
+  },
+  {
+    "id": 85,
+    "question": "This Korean manufacturer is known for sporty models like the Stinger and Genesis.",
+    "answer": "KIA",
+    "hint": "Sister company to Hyundai, focusing on design and value.",
+    "difficulty": "medium",
+    "category": "korean"
+  },
+  {
+    "id": 86,
+    "question": "This racing technique involves braking while turning to help rotate the car.",
+    "answer": "LEFT FOOT BRAKING",
+    "hint": "Using the left foot for braking while keeping the right on throttle.",
+    "difficulty": "hard",
+    "category": "racing"
+  },
+  {
+    "id": 87,
+    "question": "This Italian manufacturer produces the Giulia and Stelvio models.",
+    "answer": "ALFA ROMEO",
+    "hint": "Historic Italian brand known for sporty sedans and SUVs.",
+    "difficulty": "medium",
+    "category": "italian"
+  },
+  {
+    "id": 88,
+    "question": "This racing circuit in the UK hosted the first Formula 1 World Championship race.",
+    "answer": "SILVERSTONE",
+    "hint": "Historic British circuit known for high-speed corners.",
+    "difficulty": "medium",
+    "category": "racing"
+  },
+  {
+    "id": 89,
+    "question": "This system uses electric motors to provide additional power to the engine.",
+    "answer": "HYBRID",
+    "hint": "Combines internal combustion engine with electric propulsion.",
+    "difficulty": "easy",
+    "category": "technology"
+  },
+  {
+    "id": 90,
+    "question": "This American luxury brand is known for the Escalade SUV.",
+    "answer": "CADILLAC",
+    "hint": "General Motors' luxury division with distinctive styling.",
+    "difficulty": "medium",
+    "category": "luxury"
+  },
+  {
+    "id": 91,
+    "question": "This racing driver is known for winning the Triple Crown of Motorsport.",
+    "answer": "FERNANDO ALONSO",
+    "hint": "Spanish driver who won Monaco GP, Le Mans, and Indianapolis 500.",
+    "difficulty": "hard",
+    "category": "racing"
+  },
+  {
+    "id": 92,
+    "question": "This system automatically steers the vehicle to keep it in the lane.",
+    "answer": "LANE KEEP ASSIST",
+    "hint": "Uses cameras to detect lane markings and provide steering input.",
+    "difficulty": "medium",
+    "category": "safety"
+  },
+  {
+    "id": 93,
+    "question": "This Japanese manufacturer produces the Outback and Forester SUVs.",
+    "answer": "SUBARU",
+    "hint": "Known for standard all-wheel drive and boxer engines.",
+    "difficulty": "medium",
+    "category": "japanese"
+  },
+  {
+    "id": 94,
+    "question": "This racing series features single-seater cars competing globally.",
+    "answer": "FORMULA ONE",
+    "hint": "The pinnacle of motorsport with races worldwide.",
+    "difficulty": "easy",
+    "category": "racing"
+  },
+  {
+    "id": 95,
+    "question": "This drivetrain configuration sends power to the front wheels only.",
+    "answer": "FWD",
+    "hint": "Front-wheel drive, common in economy and compact cars.",
+    "difficulty": "easy",
+    "category": "technical"
+  },
+  {
+    "id": 96,
+    "question": "This German manufacturer produces the A-Class and S-Class models.",
+    "answer": "MERCEDES BENZ",
+    "hint": "Luxury German brand known for the three-pointed star logo.",
+    "difficulty": "easy",
+    "category": "luxury"
+  },
+  {
+    "id": 97,
+    "question": "This racing driver is known for his smooth driving style and multiple championships.",
+    "answer": "LEWIS HAMILTON",
+    "hint": "British driver with 7 Formula 1 World Championships.",
+    "difficulty": "medium",
+    "category": "racing"
+  },
+  {
+    "id": 98,
+    "question": "This system prevents wheel spin during acceleration by reducing power or applying brakes.",
+    "answer": "TRACTION CONTROL",
+    "hint": "Helps maintain grip when accelerating on slippery surfaces.",
+    "difficulty": "medium",
+    "category": "safety"
+  },
+  {
+    "id": 99,
+    "question": "This American manufacturer produces the Ram pickup truck brand.",
+    "answer": "STELLANTIS",
+    "hint": "Formed from the merger of Fiat Chrysler and PSA Group.",
+    "difficulty": "hard",
+    "category": "american"
+  },
+  {
+    "id": 100,
+    "question": "This racing circuit in Italy is known as 'The Temple of Speed'.",
+    "answer": "MONZA",
+    "hint": "Historic Formula 1 circuit with high average speeds.",
+    "difficulty": "medium",
+    "category": "racing"
+  },
+  {
+    "id": 101,
+    "question": "This engine layout has all cylinders arranged in a single row.",
+    "answer": "INLINE",
+    "hint": "Also called straight engine, common in 4 and 6 cylinder configurations.",
+    "difficulty": "medium",
+    "category": "engines"
+  },
+  {
+    "id": 102,
+    "question": "This British manufacturer produces the Continental GT and Flying Spur.",
+    "answer": "BENTLEY",
+    "hint": "Ultra-luxury brand owned by Volkswagen Group.",
+    "difficulty": "medium",
+    "category": "luxury"
+  },
+  {
+    "id": 103,
+    "question": "This racing driver dominated Formula 1 in the early 2000s with Ferrari.",
+    "answer": "MICHAEL SCHUMACHER",
+    "hint": "German driver with 7 World Championships, known for his dedication.",
+    "difficulty": "medium",
+    "category": "racing"
+  },
+  {
+    "id": 104,
+    "question": "This system automatically applies emergency braking to avoid collisions.",
+    "answer": "AEB",
+    "hint": "Autonomous Emergency Braking, standard on many new vehicles.",
+    "difficulty": "hard",
+    "category": "safety"
+  },
+  {
+    "id": 105,
+    "question": "This Chinese manufacturer produces electric vehicles under the BYD brand.",
+    "answer": "BYD",
+    "hint": "Build Your Dreams, one of the world's largest EV manufacturers.",
+    "difficulty": "hard",
+    "category": "electric"
+  }
+]
